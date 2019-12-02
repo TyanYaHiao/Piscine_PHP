@@ -4,11 +4,12 @@
     <style>
         body {
             font-family: Monospace;
+            font-size: 20px;
             background-color: pink;
             color: black;
         }
         h1 {
-            font-size: 60px;
+            font-size: 70px;
             color: white;
             text-align: center;
         }
@@ -16,21 +17,43 @@
             width: 96%;
             height: auto;
             color: black;
+
         }
+        /*.clearfix:after{*/
+        /*    content:'';*/
+        /*    display: table;*/
+        /*    width: 100%;*/
+        /*    clear: both;*/
+        /*}*/
         .shop{
             float: left;
             width: 50%;
+
         }
         .image{
             width: 100%;
             height: auto;
             max-width: 100%;
+
         }
         .desc {
             padding: 15px;
             text-align: center;
         }
+        .footer {
+            /*position: absolute;*/
+            /*bottom: 0;*/
+            padding-left: 1%;
+            width: 96%;
+            height: 35px;
+        }
+        .separator {
+            margin-top: 5px;
+            height: 3px;
+            background-color: rebeccapurple;
+        }
         .label {
+            margin-top: 5px;
             float: right;
         }
     </style>
@@ -40,28 +63,25 @@
     </head>
     <body>
         <h1>
-            Wazzap?
+            ¿Wazzaaaaaap?
         </h1>
         <div class="container">
             <a href="http://www.goods.ru/">
                 <div class="shop">
-                    <div class="image">
-                        <img src="https://www.highload.ru/uploads/f/c8/bc70a30d9390972930c4cbcfbb7f2.png">
-                    </div>
+                    <img src="https://www.highload.ru/uploads/f/c8/bc70a30d9390972930c4cbcfbb7f2.png" class="image">
                     <div class="desc">GOODS.ru</div>
                 </div>
             </a>
             <a href="http://www.beru.ru/">
                 <div class="shop">
-                    <div class="image">
-                        <img src="https://bellakt.ru/upload/iblock/958/9581f346bbb9be5df8ec39ecdbc59ea2.png">
-                    </div>
+                    <img src="https://bellakt.ru/upload/iblock/958/9581f346bbb9be5df8ec39ecdbc59ea2.png" class="image">
                     <div class="desc">BERU.RU</div>
                 </div>
             </a>
         </div>
-        <div class="label">
-            ©fsmith 2019
+        <div class="footer">
+            <div class="separator"></div>
+            <div class="label">©fsmith 2019</div>
         </div>
     </body>
 </html>
