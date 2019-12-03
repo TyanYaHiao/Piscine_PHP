@@ -15,22 +15,21 @@
         }
         .container {
             width: 96%;
-            height: auto;
+            /*height: 900px;*/
             color: black;
-
+            margin: 0 auto;
         }
-        /*.clearfix:after{*/
-        /*    content:'';*/
-        /*    display: table;*/
-        /*    width: 100%;*/
-        /*    clear: both;*/
-        /*}*/
+        .clearfix:after{
+            content:'';
+            display: table;
+            width: 100%;
+            clear: both;
+        }
         .shop{
             float: left;
-            width: 50%;
-
+            width: 49.7%;
         }
-        .image{
+        .shop img{
             width: 100%;
             height: auto;
             max-width: 100%;
@@ -43,9 +42,9 @@
         .footer {
             /*position: absolute;*/
             /*bottom: 0;*/
-            padding-left: 1%;
             width: 96%;
             height: 35px;
+            margin: 0 auto;
         }
         .separator {
             margin-top: 5px;
@@ -65,16 +64,17 @@
         <h1>
             ¿Wazzaaaaaap?
         </h1>
-        <div class="container">
+        <div class="container clearfix">
             <a href="http://www.goods.ru/">
                 <div class="shop">
-                    <img src="https://www.highload.ru/uploads/f/c8/bc70a30d9390972930c4cbcfbb7f2.png" class="image">
+                    <img src="https://www.highload.ru/uploads/f/c8/bc70a30d9390972930c4cbcfbb7f2.png">
                     <div class="desc">GOODS.ru</div>
                 </div>
             </a>
             <a href="http://www.beru.ru/">
                 <div class="shop">
-                    <img src="https://bellakt.ru/upload/iblock/958/9581f346bbb9be5df8ec39ecdbc59ea2.png" class="image">
+                    <img src="https://bellakt.ru/upload/iblock/958/9581f346bbb9be5df8ec39ecdbc59ea2.png"
+                         style="margin-top: -10%; margin-bottom: -11%">
                     <div class="desc">BERU.RU</div>
                 </div>
             </a>

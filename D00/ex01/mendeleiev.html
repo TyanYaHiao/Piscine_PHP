@@ -9,6 +9,8 @@
 			text-align: center;
 		}
 		.table {
+			display: inline-block;
+			box-sizing: border-box;
 			color: white;
 			font-size: 12px;
 		}
@@ -18,7 +20,7 @@
 		}
 		.cell {
 			float: left;
-			width: 4.9%;
+			width: 5.12%;
 			height: 60px;
 			border-radius: 4px;
 			margin-top: 1px;
@@ -27,7 +29,7 @@
 		}
 		.cell-la-ac {
 			float: left;
-			width: 9.8%;
+			width: 10.25%;
 			height: 60px;
 			border-radius: 4px;
 			margin-top: 1px;
@@ -36,20 +38,25 @@
 		}
 		.period-label {
 			float: left;
-			height: 60px;
+			width: 0.8%;
 			margin: 2px;
 			color: black;
 			text-align: left;
 			font-weight: bold;
-			padding-top: 35%;
-			padding-left: 10%;
-			width: 2%;
+			/*border: 1px solid red;*/
+			padding-top: 20px;
+			display: inline-block;
+			/*margin-top: 35%;*/
+			/*margin-left: 10%;*/
+			/*width: 2%;*/
 		}
 		.group {
 			color: black;
 			text-align: center;
 			font-weight: bold;
-			padding-top: 60%;
+			/*padding-top: 60%;*/
+			margin-top: 40px;
+			/*border: 1px solid blue;*/
 		}
 		.number {
 			padding-top: 5px;
@@ -57,6 +64,7 @@
 			text-align: left;
 		}
 		.element {
+			height: 35%;
 			font-size: 20px;
 			text-align: center;
 			font-weight: bold;
@@ -109,6 +117,9 @@
 			margin-right: 15px;
 			float: right;
 		}
+		/** {*/
+		/*	border: 1px solid red;*/
+		/*}*/
 	</style>
 	<head>
 		<meta charset="UTF-8">
@@ -171,7 +182,7 @@
 					<div class="element">He</div>
 					<div class="mass">4</div>
 				</div>
-				<div class="cell"><div class="period-label">1</div></div>
+				<div class="period-label">1</div>
 			</div>
 <!--			2 period-->
 			<div class="period">
@@ -226,7 +237,7 @@
 					<div class="element">Ne</div>
 					<div class="mass">20.18</div>
 				</div>
-				<div class="cell"><div class="period-label">2</div></div>
+				<div class="period-label">2</div>
 			</div>
 <!--			3 period-->
 			<div class="period">
@@ -281,7 +292,7 @@
 					<div class="element">Ar</div>
 					<div class="mass">39.95</div>
 				</div>
-				<div class="cell"><div class="period-label">3</div></div>
+				<div class="period-label">3</div>
 			</div>
 <!--			4 period-->
 			<div class="period">
@@ -376,7 +387,7 @@
 					<div class="element">Kr</div>
 					<div class="mass">83.3</div>
 				</div>
-				<div class="cell"><div class="period-label">4</div></div>
+				<div class="period-label">4</div>
 			</div>
 <!--			5 period-->
 			<div class="period">
@@ -471,7 +482,7 @@
 					<div class="element">Xe</div>
 					<div class="mass">131.29</div>
 				</div>
-				<div class="cell"><div class="period-label">5</div></div>
+				<div class="period-label">5</div>
 			</div>
 <!--			6 period-->
 			<div class="period">
@@ -564,7 +575,7 @@
 					<div class="element">Rn</div>
 					<div class="mass">(222)</div>
 				</div>
-				<div class="cell"><div class="period-label">6</div></div>
+				<div class="period-label">6</div>
 			</div>
 <!--			7 period-->
 			<div class="period">
@@ -657,7 +668,7 @@
 					<div class="element">Og</div>
 					<div class="mass">(294)</div>
 				</div>
-				<div class="cell"><div class="period-label">7</div></div>
+				<div class="period-label">7</div>
 			</div>
 			<div>
 				<div class="period">
@@ -677,7 +688,7 @@
 					<div class="cell"></div>
 					<div class="cell"></div>
 					<div class="cell"></div>
-					<img src="https://uznayvse.ru/images/content/2019/1/uzn_15481486925.jpg" class="image">
+<!--					<img src="https://uznayvse.ru/images/content/2019/1/uzn_15481486925.jpg" class="image">-->
 				</div>
 				<!--			Lanthanides-->
 				<div class="period">
@@ -756,7 +767,7 @@
 						<div class="element">Lu</div>
 						<div class="mass">174.97</div>
 					</div>
-					<div class="cell"><div class="period-label">6</div></div>
+					<div class="period-label">6</div>
 				</div>
 				<!--			Actinides-->
 				<div class="period">
@@ -835,7 +846,7 @@
 						<div class="element">Lr</div>
 						<div class="mass">(262)</div>
 					</div>
-					<div class="cell"><div class="period-label">7</div></div>
+					<div class="period-label">7</div>
 				</div>
 			</div>
 		</div>
