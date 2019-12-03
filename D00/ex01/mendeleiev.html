@@ -9,19 +9,22 @@
 			text-align: center;
 		}
 		.table {
-			display: inline-block;
-			box-sizing: border-box;
+			/*display: inline-block;*/
+			/*box-sizing: border-box;*/
+			margin: 0 auto;
+			padding-left: 4%;
+			width: 98%;
 			color: white;
-			font-size: 12px;
+			font-size: 1.4vmin;
 		}
 		.period {
 			float: left;
 			width: 100%;
+			height: 7%;
 		}
 		.cell {
 			float: left;
-			width: 5.12%;
-			height: 60px;
+			width: 4.8%;
 			border-radius: 4px;
 			margin-top: 1px;
 			margin-left: 1px;
@@ -29,12 +32,12 @@
 		}
 		.cell-la-ac {
 			float: left;
-			width: 10.25%;
-			height: 60px;
+			width: 9.6%;
 			border-radius: 4px;
 			margin-top: 1px;
 			margin-left: 1px;
 			margin-bottom: 1px;
+			padding-bottom: 1%;
 		}
 		.period-label {
 			float: left;
@@ -65,7 +68,7 @@
 		}
 		.element {
 			height: 35%;
-			font-size: 20px;
+			font-size: 2vmin;
 			text-align: center;
 			font-weight: bold;
 		}
@@ -106,16 +109,12 @@
 		.noble-gases {
 			background-color: #e39b96;
 		}
-		.image {
-			margin: 1%;
-			width: 15%;
-			height: auto;
-		}
 		.footer {
-			padding-left: 1%;
-			margin-top: 15px;
-			margin-right: 15px;
-			float: right;
+			text-align: center;
+		}
+		.footer img {
+			margin-top: -4%;
+			width: 100%;
 		}
 		/** {*/
 		/*	border: 1px solid red;*/
@@ -130,7 +129,7 @@
 			Dmitri Mendeleev’s <br/>
 			Periodic Table of Elements
 		</div>
-		<div class="table">
+		<div class="table" contenteditable="true">
 <!--			Groups-->
 			<div class="period">
 				<div class="cell"><div class="group">1</div></div>
@@ -851,6 +850,7 @@
 			</div>
 		</div>
 		<div class="footer">
+			<img src="http://i.imgur.com/PIdXBVB.png">
 			fsmith, 2019
 		</div>
 	</body>
