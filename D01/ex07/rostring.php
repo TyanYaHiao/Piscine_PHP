@@ -11,13 +11,15 @@ function ft_split_no_sort($str) {
 	return ($array);
 }
 
-$arr = ft_split_no_sort($argv[1]);
-$i = 1;
-while ($arr[$i]) {
-	echo $arr[$i] . " ";
-	$i++;
+if ($argc > 1) {
+	$arr = ft_split_no_sort($argv[1]);
+	$i = 1;
+	while ($arr[$i]) {
+		echo $arr[$i] . " ";
+		$i++;
+	}
+	echo $arr[0] . PHP_EOL;
 }
-echo $arr[0] . PHP_EOL;
 
 //foreach ($arr as $key=>$value) {
 //

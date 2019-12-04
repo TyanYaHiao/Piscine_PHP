@@ -22,7 +22,7 @@ function ft_is_sort($arr) {
 	return ($sorted);
 }
 
-//$tab = array("1", "3", "2", "4", "5");
+//$tab = array("1", "1", "2", "4", "5");
 //$tab[] = "What are we doing now ?";
 //if (ft_is_sort($tab))
 //	echo "The array is sorted\n";
