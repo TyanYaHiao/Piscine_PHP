@@ -6,7 +6,7 @@ function ft_split($str) {
 		if ($array[$key] == "\t" || $array[$key] == "\n" || $array[$key] == "\r" || !$array[$key])
 			unset($array[$key]);
 	}
-	$array = array_values($array);
+	sort($array);
 	return ($array);
 }
 

@@ -11,13 +11,18 @@ function ft_split_no_sort($str) {
 	return ($array);
 }
 
-if ($argc == 2) {
-	$arr = ft_split_no_sort($argv[1]);
-	foreach ($arr as $key=>$value) {
-		echo $arr[$key];
-		if ($arr[$key + 1])
-			echo " ";
-		else
-			echo PHP_EOL;
-	}
+$arr = ft_split_no_sort($argv[1]);
+$i = 1;
+while ($arr[$i]) {
+	echo $arr[$i] . " ";
+	$i++;
 }
+echo $arr[0] . PHP_EOL;
+
+//foreach ($arr as $key=>$value) {
+//
+//	if ($arr[$key + 1])
+//		echo " ";
+//	else
+//		echo PHP_EOL;
+//}
