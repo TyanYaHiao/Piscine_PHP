@@ -6,9 +6,9 @@
         <link rel="stylesheet" href="doft.css">
     </head>
     <body>
-        <div class="search">
-            <img src="resources/loupe.png" alt="Loupe" title="Search">
-        </div>
+    <div class="search">
+        <img src="resources/loupe.png" alt="Loupe" title="Search">
+    </div>
         <div class="container">
             <div class="heading block">
                 <div class="doft">
@@ -38,14 +38,11 @@
                         <area shape="rect" coords="500, 200, 800, 400" href="https://www.apple.com" title="Wanna some apple?" alt="apple">
                     </map>
                 </div>
-                <div class="menu block right clearfix">
+                <div class="menu2 block right clearfix">
                     <div class="button"><img src="resources/book.png" alt="Book" title="Book"></div>
                     <div class="button"><img src="resources/towel.png" alt="Towel" title="Towel"></div>
-                    <div class="button" style="margin: 6%;">
-                        <img src="resources/brick.jpg" alt="Bricks" style="margin: 0 auto;">
-                        <img src="resources/brick.jpg" alt="Bricks" style="margin: 0 auto;">
-                        <img src="resources/brick.jpg" alt="Bricks" style="margin: 0 auto;">
-                        <img src="resources/brick.jpg" alt="Bricks" style="margin: 0 auto;">
+                    <div class="button" id="bricks">
+                        <img src="resources/brick.jpg" class="brick"/>
                     </div>
                 </div>
             </div>
@@ -53,10 +50,8 @@
     <div class="chatbox">
         <p>Vous <b>entrez</b> alors dans une grande piece remplie d'<em>ordinateurs</em>...</p>
         <p><i>-Bonjour, vous etes nouveau ici ?</i></p>
-        <div class="printbox" contenteditable="true">
-
-        </div>
-        <div class="repondre">Repondre</div>
+        <button>Repondre</button>
+        <div class="printbox" contenteditable="true"></div>
     </div>
     </body>
 </html>
