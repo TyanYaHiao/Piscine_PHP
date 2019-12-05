@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 
 function ft_split_no_sort($str) {
@@ -21,3 +22,4 @@ if ($argc > 1) {
 			echo PHP_EOL;
 	}
 }
+?>
