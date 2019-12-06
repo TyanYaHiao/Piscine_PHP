@@ -27,11 +27,9 @@ for($i = 1; $i < $argc; $i++) {
 	while (ft_split_no_sort($argv[$i])[$ii])
 	{
 		array_push($arr, ft_split_no_sort($argv[$i])[$ii]);
-		print_r($arr);
 		$ii++;
 	}
 }
-print_r($arr);
 usort($arr, 'my_sort');
 foreach ($arr as $key=>$value) {
 	echo $arr[$key] . PHP_EOL;
