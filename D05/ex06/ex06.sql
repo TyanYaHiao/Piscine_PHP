@@ -1,0 +1,1 @@
+SELECT `title`, `summary` FROM `db_fsmith`.film WHERE LOWER(`summary`) LIKE '%vincent%' ORDER BY `id_film` ASC;
