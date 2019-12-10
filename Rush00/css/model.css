@@ -1,0 +1,42 @@
+.model_description {
+	width: 50%;
+	float: left;
+}
+
+.model_details {
+	margin-left: 10%;
+	width: 40%;
+	float: right;
+}
+
+.model_color {
+	margin: 5px 6% 5px 6%;
+	float: left;
+	width: 20%;
+	height: 50px;
+	border: 1px solid gray;
+}
+
+.color_1 {
+	background-color: white;
+}
+
+.color_2 {
+	background-color: gray;
+}
+
+.color_3 {
+	background-color: darkgreen;
+}
+
+.color_4 {
+	background-color: black;
+}
+
+.color_5 {
+	background-color: red;
+}
+
+.color_6 {
+	background-color: yellow;
+}

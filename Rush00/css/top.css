@@ -1,0 +1,38 @@
+.top {
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color: black;
+	height: 70px;
+	display: flex;
+	align-items: center;
+
+}
+.top a img {
+	height: 30px;
+	margin-left: 45vw;
+}
+.logo {
+	height: 30%;
+	margin-left: 42%;
+}
+
+.top_menu {
+	padding-left:35vw;
+	/*display: flex;*/
+	/*margin-left: 30%;*/
+}
+
+.top_button {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: right;
+	color: white;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.top_button:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+.product_block {
+	width: 31%;
+	padding: 1%;
+	float: left;
+	min-width: 400px;
+	border-radius: 3px;
+}
+.product_block img {
+	width: 100%;
+}
+.product_block:hover {
+	background-color: whitesmoke;
+}
+.product_block:hover .button_add_to_cart {
+	display: block;
+}
+.product_block:hover .cost {
+	display: none;
+}
+.product_title {
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.product_ {
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+}
+.description {
+	color: black;
+	font-size: 14px;
+}
+.specifications {
+	float: left;
+	width: 75%;
+	color: gray;
+	font-size: 12px;
+}
+.delimiter {
+	height: 1px;
+	background-color: lightgray;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.cost {
+	padding-top: 4px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+}
+.button_add_to_cart {
+	font-size: 13px;
+	float: right;
+	width: 25%;
+	height: 27px;
+	display: none;
+}
